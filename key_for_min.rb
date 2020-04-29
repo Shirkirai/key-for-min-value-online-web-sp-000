@@ -6,7 +6,6 @@ def key_for_min_value(hash)
     return nil
   end
   hash.collect do |key, value|
-    key
-    value
+    return key.first
   end
 end
