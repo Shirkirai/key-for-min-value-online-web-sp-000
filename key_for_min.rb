@@ -4,8 +4,9 @@
 def key_for_min_value(hash)
   if hash == {}
     return nil
+  end
   hash.each do |key, value|
-    
+    return key
     end
   end
 end
