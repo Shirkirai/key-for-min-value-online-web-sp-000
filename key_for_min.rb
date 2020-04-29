@@ -11,5 +11,6 @@ def key_for_min_value(hash)
       key_for_min_value(hash)
       i += 1
       return key
+    end
   end
 end
