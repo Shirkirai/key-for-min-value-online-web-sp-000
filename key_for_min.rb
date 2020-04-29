@@ -7,7 +7,7 @@ def key_for_min_value(hash)
   end
   hash.collect do |key, value|
     if value
-    return key
+    key
     end
   end
 end
